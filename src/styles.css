@@ -1,7 +1,64 @@
+body {
+  background-color: #f7f3ff;
+  font-family: sans-serif;
+}
+
 h1 {
   text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
 }
 
 footer {
   text-align: center;
+}
+
+select {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.container {
+  background-color: white;
+  max-width: 450px;
+  padding: 20px 40px;
+  margin: 60px auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.city {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border-bottom: none;
+}
+
+.city .date {
+  margin-top: 4px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.city .time {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.city small {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+footer {
+  padding: 0;
 }
